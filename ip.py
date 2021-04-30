@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
-
 import time
 import os
 import subprocess
-
-
-
 
 try:
     check_pip3 = subprocess.check_output('dpkg -s python3-pip', shell=True)
@@ -48,16 +44,11 @@ def change():
     print ('[+] Your IP has been Changed to : '+str(ma_ip()))
 
 print('''\033[1;32;40m \n
-                _          _______
-     /\        | |        |__   __|
-    /  \  _   _| |_ ___      | | ___  _ __
-   / /\ \| | | | __/ _ \     | |/ _ \| '__|
-  / ____ \ |_| | || (_) |    | | (_) | |
- /_/    \_\__,_|\__\___/     |_|\___/|_|
-                V 2.1
+
+                V 3.1
 from mrFD
 ''')
-print("\033[1;40;31m http://facebook.com/ninja.hackerz.kurdish/\n")
+print("\033[1;40;31m https://www.instagram.com/shubham_g0sain\n")
 
 os.system("service tor start")
 
