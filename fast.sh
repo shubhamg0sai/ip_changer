@@ -22,7 +22,7 @@ killall -HUP tor > /dev/null 2>&1
 while [[ true ]]; do
 let count++
 switch
-printf "\e[1;92m[*] Tor ip adress changed %s times\e[0m\n" $count
+printf "\e[1;92m *_* Tor ip adress changed %s times\e[0m\n" $count
 sleep $time
 clear
 done
