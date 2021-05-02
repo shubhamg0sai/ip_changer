@@ -3,7 +3,7 @@ choice = input('[+] to install press (Y) to uninstall press (N) >> ')
 run = os.system
 if str(choice) =='Y' or str(choice)=='y':
 
-    run('chmod 777 ippy')
+    run('chmod 777 ip.py')
     run('mkdir /usr/share/aut')
     run('cp ip.py /usr/share/aut/ip.py')
 
