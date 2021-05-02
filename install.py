@@ -4,7 +4,7 @@ run = os.system
 if str(choice) =='Y' or str(choice)=='y':
 
     run('chmod 777 ip.py')
-    run('mkdir /usr/share/aut')
+    run('mkdir /usr/share/aut/')
     run('cp ip.py /usr/share/aut/ip.py')
 
     cmnd=(' #! /bin/sh \n exec python3 /usr/share/aut/ip.py "$@"')
