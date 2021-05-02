@@ -12,7 +12,3 @@ git clone https://github.com/ShuBhamg0sain/ip_changer
 cd ip_changer
 
 bash fast.sh
-
-OR
-
-python3 install.py
