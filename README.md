@@ -30,3 +30,5 @@ cd ip_changer
 chmod +x fast.sh
 
 ./fast.sh
+
+https://www.torproject.org/download/download#warning
