@@ -14,4 +14,4 @@ cd ip_changer
 
 chmod +x fast.sh
 
-bash fast.sh
+./fast.sh
