@@ -8,7 +8,7 @@ fi
 }
 checkroot
 checktor() {
-cehck=$(curl --socks5-hostname localhost:9050 -s https://check.torpreoject.org > /dev/null; echo $?)
+cehck=$(curl --socks5-hostname 127.0.0.1:9050 -s https://check.torpreoject.org > /dev/null; echo $?)
 if [[ "$check" -gt 0 ]]; then
 printf "\e[1;91mPlease, check your TOR Connection! just type tor or service tor start\n\e[0m"
 exit 1
