@@ -1,6 +1,6 @@
 # ip_changer
 Change your Ip address
-# without root (android)
+# without root
 apt update
 
 apt upgrade
@@ -15,7 +15,7 @@ chmod +x install.py
 
 python2 install.py
 
-# Run as root (linux)
+# Run as root 
 # installation
 apt update
 
